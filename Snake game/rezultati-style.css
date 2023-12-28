@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    background-color: aquamarine;
+    color: rgb(5, 5, 65);
+    font-size: large;
+    font-weight: bold;
+}
+
+h2 {
+  font-weight: 900;
+}
+
+
+.top5 {
+  margin-top: 30px;
+  color: rgb(5, 5, 65);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#pocetna {
+  margin-top: 30px;
+}
+
+div.top5 div {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

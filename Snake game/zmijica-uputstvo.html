@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="uputstvo-style.css"> 
+    <script src="jquery.js"></script>
+    <script src="uputstvo-skripta.js"></script>
+    <title>Uputstvo</title>
+</head>
+<body>
+    <h1>Uputstvo</h1>
+
+    <h2>Cilj</h2>
+    <div>Skupiti što vise poena. Poeni se skupljaju tako što se skuplja hrana, tj predje se preko nje.<br>
+        Obična daje 1 poen, dok superhrana daje 10 poena, ali ona nestaje nakom nekoliko sekundi. 
+    </div>
+
+    <h2>Kraj igre</h2>
+    <div>Kraj igre je kada se udari u ivice table ili zmijica udari sama u sebe.</div>
+    
+    <h2>Kontrole</h2>
+    <div>Pritiskom strelice na tastaturi, zmijica idi u željenom pravcu.<br>
+        Ako zmijica idi npr. na gore i pritisne se taster za dole, ništa se neće desiti.
+    </div>
+
+    <h2>Velicina table</h2>
+    <div id="filteri">
+        <input type="radio" name ="tabla" id="10" value="10">
+        <label for="10">10x10</label>
+        <input type="radio" name ="tabla" id="15"  value="15" checked>
+        <label for="15">15x15</label>
+        <input type="radio" name ="tabla" id="20" value="20">
+        <label for="20">20x20</label>
+    </div>
+
+    <h2>Tezina</h2>
+    <form>
+        <input type="radio" name="tezina" id="lako" value="lako">
+        <label for="lako">Lako</label>
+      
+        <input type="radio" name="tezina" id="srednje"  value="srednje" checked>
+        <label for="srednje">Srednje</label>
+      
+        <input type="radio" name="tezina" id="tesko" value="tesko">
+        <label for="tesko">Teško</label>
+    </form>
+    <br>
+
+    <button id="igraj">Igraj igru</button>
+    <button id="rezultati">Rezultati</button>
+      
+</body>
+
+</html>
